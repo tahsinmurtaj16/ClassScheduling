@@ -22,7 +22,7 @@ As a hint, you can't use some algorithms, because they are pre-emptive schedulin
 
 ## Input
 
-Similar to a process, each class, will have the following members of integer values to consider, its course code, running time, and priority. 
+Similar to a process, each class, will have the following members of integer values to consider, its course code, duration, prefered started time and priority. 
 We consider each course can be in the duration of 1 hour, 2 hours, or 3 hours at a time. We can therefore represent a course/class as a structure like the code 
 given below. 
 
@@ -34,24 +34,44 @@ struct Process
    int ccode;     // course code
    int duration;      // class duration
    int priority;  //priority
+   int arrival_time;   //prefered arrival time
 };
 ```
 
-We can therefore, initialize a course with the codes given below. For example,
+We can therefore, represent all the courses in an array and initialize them such as the code given below.
 
 ```
-// courses CSC2201 with priority 2 for 3 hours, CSC3401 with priority 3 for 2 hours, and CSC1103 with priority 1 for 1 hour 
-Process proc[] = {{2201,3,2}, {3401, 2, 3}, {1103, 1,1}};
+// courses CSC2201 with priority 2 for 3 hours with prefered to start first, 
+// CSC3401 with priority 3 for 2 hours prefered to start second, 
+// and CSC1103 with priority 1 for 1 hour 
+Process proc[] = {{2201,3,2,1}, {3401, 2, 3,2}, {1103, 1,1,3}};
 ```
 
 You can access each member in the process by using the dot operator in c++. An example is given below. 
 
-For simplicity, the code for FCFS is already given to you. 
+```
+cout << proc[0].ccode;  //prints out the course code in the first element of the array
+```
+
+As an example, the code for FCFS is already given to you. Your job is to write the code for two other algorithms that you can consider using to schedule courses. 
+Note that in FCFS, you can ignore the priority parameter, and prefered start time (arrival) because the algorithm only cares about what is in the queue (array). 
 
 ## Output
 
+Your output has to display out
+
+* Output the order of scheduling for the courses, in FCFS, 
+* average waiting time
+* average turnaround time
+
 ## Analysis
+
+Include in text file called analysis.md, your analysis of the algorithm, the input that you have given and the output that your algorithm have produced. 
+Give an explanation as to why this is better or worst than other algorithms you've have considered. 
 
 ## What to Submit
 
-https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository
+1. Create a github account. Clone a copy of this repository. Refer to how to clone, https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository
+2. Download the code in your repository. 
+3. Upload your codes into your own repository. Make sure to include your modified version of  FCFS algorithm, 2nd algorithm to use as comparison, 3rd algorithm to use as comparison and the analysis.md file.
+3. Go into Google classroom, and submit a link to your github repository. 
