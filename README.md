@@ -73,5 +73,16 @@ Give an explanation as to why this is better or worst than other algorithms you'
 
 1. Create a github account. Fork a copy of this repository. Refer to how to fork, https://docs.github.com/en/github/getting-started-with-github/fork-a-repo
 2. AFter the fork, download your own fork repository. 
-3. Upload your codes into your own repository. Make sure to include your modified version of  FCFS algorithm, 2nd algorithm to use as comparison, 3rd algorithm to use as comparison and the analysis.md file.
-3. Go into Google classroom, and submit a link to your github repository. 
+3. Upload your codes into your own repository. Make sure your repository contains the following files.
+* modified version of  **FCFS algorithm**, 
+* **2nd algorithm** to use as comparison, 
+* **3rd algorithm** to use as comparison and the 
+* **analysis.md** file.
+
+4. Very **important to note**, to include the **names** and **Matric ID no* of all your group members. Otherwise, your submission is not counted. 
+
+5. Go into Google classroom, and submit a link to your github repository. 
+
+# Hints
+
+Refer to https://www.studytonight.com/operating-system/cpu-scheduling
