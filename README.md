@@ -18,7 +18,7 @@ Additionally, we do not assume new classes to be introduced during scheduling, m
 
 Your job is to propose the best scheduling algorithm to implement in finding the best Class Scheduling solution. 
 Your choices of algorithms is using FCFS, Round-Robin, SJF, SRTF, or Priority Scheduling.  
-As a hint, you can't use some algorithms, because they are pre-emptive scheduling algorithms. Which ones are they? 
+As a hint, you can't use some algorithms, because they are pre-emptive scheduling algorithms. For example, you can use FCFS is a non-preemptive algorithm. Which ones are non-preemptive? 
 
 ## Input
 
@@ -53,7 +53,7 @@ You can access each member in the process by using the dot operator in c++. An e
 cout << proc[0].ccode;  //prints out the course code in the first element of the array
 ```
 
-As an example, the code for FCFS is already given to you. Your job is to write the code for two other algorithms that you can consider using to schedule courses. 
+As an example, the code for FCFS (fcfs.cpp) is already given to you. Your job is to write the code for two other algorithms that you can consider using to schedule courses. 
 Note that in FCFS, you can ignore the priority parameter, and prefered start time (arrival) because the algorithm only cares about what is in the queue (array). 
 
 ## Output
@@ -74,9 +74,9 @@ Give an explanation as to why this is better or worst than other algorithms you'
 1. Create a github account. Fork a copy of this repository. Refer to how to fork, https://docs.github.com/en/github/getting-started-with-github/fork-a-repo
 2. AFter the fork, download your own fork repository. 
 3. Upload your codes into your own repository. Make sure your repository contains the following files.
-* modified version of  **FCFS algorithm**, 
-* **2nd algorithm** to use as comparison, 
-* **3rd algorithm** to use as comparison and the 
+* modified version of  **FCFS algorithm** (fcfs.cpp is already given, you may need to modify it yourself to do your analysis), 
+* **2nd algorithm** to use as comparison, include the .cpp file, 
+* **3rd algorithm**,  include the .cpp file to use as comparison and the 
 * **analysis.md** file.
 
 4. Very **important to note**, to include the **names** and **Matric ID no** of all your group members. Otherwise, your submission is not counted. Each group can only have a maximum of **4 people**. 
