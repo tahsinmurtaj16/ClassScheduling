@@ -79,7 +79,7 @@ Give an explanation as to why this is better or worst than other algorithms you'
 * **3rd algorithm** to use as comparison and the 
 * **analysis.md** file.
 
-4. Very **important to note**, to include the **names** and **Matric ID no* of all your group members. Otherwise, your submission is not counted. 
+4. Very **important to note**, to include the **names** and **Matric ID no** of all your group members. Otherwise, your submission is not counted. 
 
 5. Go into Google classroom, and submit a link to your github repository. 
 
