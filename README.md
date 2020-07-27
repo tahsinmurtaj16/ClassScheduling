@@ -71,7 +71,7 @@ Give an explanation as to why this is better or worst than other algorithms you'
 
 ## What to Submit
 
-1. Create a github account. Clone a copy of this repository. Refer to how to clone, https://docs.github.com/en/enterprise/2.13/user/articles/cloning-a-repository
-2. Download the code in your repository. 
+1. Create a github account. Fork a copy of this repository. Refer to how to fork, https://docs.github.com/en/github/getting-started-with-github/fork-a-repo
+2. AFter the fork, download your own fork repository. 
 3. Upload your codes into your own repository. Make sure to include your modified version of  FCFS algorithm, 2nd algorithm to use as comparison, 3rd algorithm to use as comparison and the analysis.md file.
 3. Go into Google classroom, and submit a link to your github repository. 
