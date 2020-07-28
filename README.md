@@ -60,7 +60,7 @@ Note that in FCFS, you can ignore the priority parameter, and prefered start tim
 
 Your output has to display out
 
-* Output the order of scheduling for the courses, in FCFS, 
+* Output the order of scheduling for the courses, in FCFS, and other 2 algorithms that you propose.
 * average waiting time
 * average turnaround time
 
