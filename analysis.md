@@ -98,5 +98,5 @@ Enter the arrival time of Class 4 : 4
         P3              3               2               3               5                                                                                 
 Average Waiting Time --1                                                                                                                                  
 Average Turnaround Time --2.75                                                                                                                            
-                                                                            
+# Conclusion                                                                            
 Since SJF has the lowest turn around time and waiting than FCFS , and priority scheduling ,that's why , SJF is the best scheduling algorithm.
