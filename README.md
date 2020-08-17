@@ -1,7 +1,7 @@
 # ClassScheduling Assignment
 Finding the optimum class scheduling algorithm
 
-# GROUP MEMBER DESCRIPTION
+# GROUP MEMBERS DESCRIPTION
 | Name                          | Matric No |
 |-------------------------------|-----------|
 | MURTAJ SHEIKH MOHAMMAD TAHSIN | 1817537   |
