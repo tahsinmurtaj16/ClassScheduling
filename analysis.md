@@ -20,7 +20,7 @@ Here, are pros/benefits of Non-preemptive Scheduling method:
 
 # Analysis
 
-## FCFS
+## FCFS Input
 Course 1 : 2201 
 Duration: 2
 Arrival time:1
@@ -37,7 +37,7 @@ Course 4:3405
 Duration: 1
 Arrival time:4
 
-
+## FCFS output
 Arrival order: 2201 , 3401 , 1103 , 3405 
 
 Average waiting time: 3.5
@@ -45,7 +45,7 @@ Average turn around time:5.5
 
 Hence , FCFS has the highest wating time and  turn around time than Priority scheduling ,and SJF.
 
-## Priority
+## Priority Input
 Enter the number of Classes: 4                                                           
 Enter Class 1 Subject Code: 2201                                                         
 Enter Class 2 Subject Code: 3401                                                         
@@ -67,7 +67,7 @@ Enter Class priority for 1103 : 4
 Enter Class duration for 3405 : 1                                                        
 Enter arrival time for 3405 : 4                                                          
 Enter Class priority for 3405 : 5  
-
+## Priority output
 PID     Priority        Burst Time      Arrival Time    Wait Time       Turnaround Time  
 Coure 2201      1               2               1               0               2        
 Coure 3401      3               3               2               0               3        
@@ -78,7 +78,7 @@ AverageWaiting Time: 1
 
 Priority scheduling has lower turn around time than FCFS ,but slightly higher than SJF .And , Lower waiting time than FCFS ,but same as SJF.
 
-## SJF
+## SJF input
 Shortest Job First Scheduling ( NP )                                                                                                                      
 Enter the No. of Classes: 4                                                                                                                               
 Enter the duration time of Class 1 : 2                                                                                                                    
@@ -88,7 +88,8 @@ Enter the arrival time of Class 2 : 2
 Enter the duration time of Class 3 : 2                                                                                                                    
 Enter the arrival time of Class 3 : 3                                                                                                                     
 Enter the duration time of Class 4 : 1                                                                                                                    
-Enter the arrival time of Class 4 : 4                                                                                                                     
+Enter the arrival time of Class 4 : 4   
+## SJF output
         PROCESS  ARRIVAL TIME    BURST TIME      WAITING TIME    TURNAROUND TIME                                                                          
                                                                                                                                                           
         P1              1               2               0               1                                                                                 
